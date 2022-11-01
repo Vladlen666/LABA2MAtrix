@@ -33,7 +33,6 @@ TEST(TVector, copied_vector_is_equal_to_source_one)
   TVector<int> v1(4);
   v1[0] = 2;
   TVector<int> v2(v1);
-
   EXPECT_EQ(v1, v2);
 }
 
