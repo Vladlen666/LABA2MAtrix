@@ -1,4 +1,6 @@
-#include "tmatrix.h"
+#include "TTrBMatrix.h"
+#include "TTrTMatrix.h"
+#include "TSqMatrix.h"
 #include <gtest.h>
 
 TEST(TMatrix, can_create_matrix_with_positive_length)
